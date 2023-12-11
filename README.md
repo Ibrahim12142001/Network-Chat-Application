@@ -14,7 +14,10 @@
 
 ## Example 
 Say that Fred and Barney want to talk. 
+
 Fred is on machine "csil-cpu1" and will use port number 6060. Barney is on machine "csil-cpu3" and will use port number 6001.
+
 To initiate s-talk, Fred must type: s-talk 6060 csil-cpu3 6001
+
 And Barney must type: s-talk 6001 csil-cpu1 6060.
 
